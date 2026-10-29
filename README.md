@@ -14,14 +14,16 @@ Pre-Rule 是一项项目文件规划规范。Codex 根据当前任务和已有�
 
 技能允许自动选择，但不能保证每次请求都会自动触发；需要明确使用时直接写 `$pre-rule`。用户本次指定的文件结构和其他具体要求优先。
 
-首次安装时，先克隆本仓库并进入目录：
+首次安装时，克隆本仓库并将技能复制到 Codex 的技能目录：
 
 ```bash
 git clone https://github.com/Haichuan-Zhao/Pre-Rule.git
 cd Pre-Rule
+mkdir -p ~/.codex/skills
+cp -R .agents/skills/pre-rule ~/.codex/skills/
 ```
 
-然后向 Codex 发送：
+如果使用 Skills Manager 管理技能，也可以在本仓库目录向 Codex 发送：
 
 ```text
 使用 $manage-skills，将本项目 .agents/skills/pre-rule 作为本地来源安装并部署到 Codex。
