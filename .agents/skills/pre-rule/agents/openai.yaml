@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pre-Rule 项目文件规范"
+  short_description: "按工作阶段组织代码、数据、结果和图片，避免生成无用途文件"
+  default_prompt: "使用 $pre-rule 按实际任务规划项目文件，按阶段组织代码、数据、结果与图片。"
