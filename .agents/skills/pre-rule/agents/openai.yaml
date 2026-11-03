@@ -1,4 +1,4 @@
 interface:
   display_name: "Pre-Rule 项目规范"
-  short_description: "集中管理数据及其处理和可视化，按实际任务组织实验及结果"
-  default_prompt: "使用 $pre-rule 按实际任务组织 data/ 和 exp/，将处理代码与数据、实验结果与对应实验放在一起。"
+  short_description: "以易理解的文件组织科研数据、参数辨识与实验，控制文件数量"
+  default_prompt: "使用 $pre-rule 按人容易理解的用途和数据流组织 data/ 与 exp/，优先复用文件，只保留必要产物。"
